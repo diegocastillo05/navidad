@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Navidad</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body,
+      div,
+      span,
+      applet,
+      object,
+      iframe,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      blockquote,
+      pre,
+      a,
+      abbr,
+      acronym,
+      address,
+      big,
+      cite,
+      code,
+      del,
+      dfn,
+      em,
+      img,
+      ins,
+      kbd,
+      q,
+      s,
+      samp,
+      small,
+      strike,
+      strong,
+      sub,
+      sup,
+      tt,
+      var,
+      b,
+      u,
+      i,
+      center,
+      dl,
+      dt,
+      dd,
+      ol,
+      ul,
+      li,
+      fieldset,
+      form,
+      label,
+      legend,
+      table,
+      caption,
+      tbody,
+      tfoot,
+      thead,
+      tr,
+      th,
+      td,
+      article,
+      aside,
+      canvas,
+      details,
+      embed,
+      figure,
+      figcaption,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      output,
+      ruby,
+      section,
+      summary,
+      time,
+      mark,
+      audio,
+      video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+      }
+
+      html {
+        line-height: 1;
+      }
+
+      ol,
+      ul {
+        list-style: none;
+      }
+
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      p,
+      ul,
+      li {
+        line-height: 1.4;
+      }
+      .slick-dotted.slick-slider {
+        margin-bottom: 30px;
+      }
+
+      .slick-dots {
+        position: absolute;
+        bottom: -25px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+      }
+
+      .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 0 8px;
+        padding: 0;
+        cursor: pointer;
+      }
+
+      .slick-dots li button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 8px;
+        cursor: pointer;
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+      }
+
+      .slick-dots li button:hover,
+      .slick-dots li button:focus {
+        outline: none;
+      }
+
+      .slick-dots li button:hover:before,
+      .slick-dots li button:focus:before {
+        opacity: 1;
+      }
+
+      .slick-dots li button:before {
+        font-family: "slick";
+        font-size: 6px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        opacity: 0.25;
+        color: #000;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      .slick-dots li.slick-active button:before {
+        opacity: 0.75;
+        color: #000;
+      }
+      .btn {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        font-size: 1rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+        width: auto;
+        height: 40px;
+        position: relative;
+        display: inline-block;
+        padding: 11px 20px;
+        background-color: transparent;
+        border: #da291c 1px solid;
+        cursor: pointer;
+      }
+
+      .btn.btnPrimario {
+        color: #fff;
+        background-color: #da291c;
+      }
+      /* Base  */
+      @font-face {
+        font-family: "AMX-Regular";
+        src: url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Regular.eot?")
+            format("eot"),
+          url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Regular.woff2")
+            format("woff2"),
+          url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Regular.woff")
+            format("woff"),
+          url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Regular.ttf")
+            format("truetype"),
+          url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Regular.svg#AMX-Regular")
+            format("svg");
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "AMX-Medium";
+        src: url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Medium.eot?")
+            format("eot"),
+          url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Medium.woff2")
+            format("woff2"),
+          url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Medium.woff")
+            format("woff"),
+          url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Medium.ttf")
+            format("truetype"),
+          url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Medium.svg#AMX-Medium")
+            format("svg");
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "AMX-Bold";
+        src: url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Bold.eot?")
+            format("eot"),
+          url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Bold.woff2")
+            format("woff2"),
+          url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Bold.woff")
+            format("woff"),
+          url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Bold.ttf")
+            format("truetype"),
+          url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Bold.svg#AMX-Bold")
+            format("svg");
+        font-display: swap;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      .btn.btnGrisRojo {
+        color: #da291c;
+        background-color: #fff;
+        border-color: #fff;
+      }
+
+      .btn.btnGrisRojo:hover {
+        color: #fff;
+        background-color: #b52217;
+        border-color: #b52217;
+      }
+      h1.hCenter,
+      .h1.hCenter,
+      h2.hCenter,
+      .h2.hCenter,
+      h3.hCenter,
+      .h3.hCenter,
+      h4.hCenter,
+      .h4.hCenter,
+      h5.hCenter,
+      .h5.hCenter,
+      h6.hCenter,
+      .h6.hCenter {
+        text-align: center;
+      }
+      h2,
+      .h2 {
+        font-size: 24px;
+        font-size: 1.5rem;
+      }
+      @media only screen and (min-width: 640px) {
+        h2,
+        .h2 {
+          font-size: 36px;
+          font-size: 2.25rem;
+        }
+      }
+      h1,
+      .h1,
+      h2,
+      .h2,
+      h3,
+      .h3,
+      h4,
+      .h4 {
+        font-family: "AMX", "Roboto", sans-serif;
+      }
+      section {
+        padding: 32px 0;
+        background-color: #fff;
+      }
+      @media only screen and (min-width: 640px) {
+        section {
+          padding: 40px 0;
+        }
+      }
+      body {
+        font-family: "Roboto", sans-serif;
+        color: #3c3c3c;
+      }
+      .container {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      @media only screen and (min-width: 1500px) {
+        .container {
+          max-width: 1440px;
+        }
+      }
+    </style>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://www.claro.com.pe/portal/pe/recursos_tema/js/slick/slick.js?V1"></script>
+    <script src="https://www.claro.com.pe/portal/pe/recursos_portlets/PE_CPPFEPnesPrecios/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section1Navidad">
+      <div class="container">
+        <h2>¿Ya sabes que regalar o qué pedir para Navidad?</h2>
+        <div class="mensaje">
+          <p>
+            En Claro tenemos las mejores
+            <strong>Opciones para regalar en Navidad.</strong> <br />¡Elige qué
+            regalar o qué pedir hoy!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section2Navidad">
+      <div class="container">
+        <h3>Celulares para regalar</h3>
+        <p>TOP DE MARCAS</p>
+        <div class="contentCelulares" id="contentCelulares">
+          <div class="itemCard">
+            <div class="contentImg">
+              <img src="assets/celular_iphone.png" alt="iphone" />
+            </div>
+            <a href="" target="_blank">Elige el tuyo</a>
+          </div>
+          <div class="itemCard">
+            <div class="contentImg">
+              <img src="assets/celular_samsung.png" alt="samsung" />
+            </div>
+            <a href="" target="_blank">Elige el tuyo</a>
+          </div>
+          <div class="itemCard">
+            <div class="contentImg">
+              <img src="assets/celular_xiaomi.png" alt="xiaomi" />
+            </div>
+            <a href="" target="_blank">Elige el tuyo</a>
+          </div>
+          <div class="itemCard">
+            <div class="contentImg">
+              <img src="assets/celular_honor.png" alt="honor" />
+            </div>
+            <a href="" target="_blank">Elige el tuyo</a>
+          </div>
+          <div class="itemCard">
+            <div class="contentImg">
+              <img src="assets/celular_honor.png" alt="honor" />
+            </div>
+            <a href="" target="_blank">Elige el tuyo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section3Navidad">
+      <div class="container">
+        <h3>Regalos para gamers</h3>
+        <div class="contentRegalos">
+          <div class="itemCard">
+            <div class="contentImg">
+              <img src="assets/celular_honor.png" alt="honor" />
+            </div>
+            <a href="" target="_blank">Celulares Gamers</a>
+          </div>
+          <div class="itemCard">
+            <div class="contentImg">
+              <img src="assets/celular_honor.png" alt="honor" />
+            </div>
+            <a href="" target="_blank">Celulares Gamers</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

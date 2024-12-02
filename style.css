@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "AMX";
+  src: url("  https://www.claro.com.pe/assets/havas/general/fonts/AMXClaro-Brands.eot?") format("eot"), url("  https://www.claro.com.pe/assets/havas/general/fonts/AMXClaro-Brands.woff2") format("woff2"), url("  https://www.claro.com.pe/assets/havas/general/fonts/AMXClaro-Brands.woff") format("woff"), url("  https://www.claro.com.pe/assets/havas/general/fonts/AMXClaro-Brands.ttf") format("truetype"), url("  https://www.claro.com.pe/assets/havas/general/fonts/AMXClaro-Brands.svg#AMX") format("svg");
+}
+@font-face {
+  font-family: "AMX-Regular";
+  src: url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Regular.eot?") format("eot"), url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Regular.woff2") format("woff2"), url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Regular.woff") format("woff"), url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Regular.ttf") format("truetype"), url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Regular.svg#AMX-Regular") format("svg");
+  font-display: swap;
+}
+@font-face {
+  font-family: "AMX-Medium";
+  src: url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Medium.eot?") format("eot"), url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Medium.woff2") format("woff2"), url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Medium.woff") format("woff"), url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Medium.ttf") format("truetype"), url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Medium.svg#AMX-Medium") format("svg");
+  font-display: swap;
+}
+@font-face {
+  font-family: "AMX-Bold";
+  src: url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Bold.eot?") format("eot"), url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Bold.woff2") format("woff2"), url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Bold.woff") format("woff"), url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Bold.ttf") format("truetype"), url("https://www.claro.com.pe/assets/havas/general/fonts/AMX-Bold.svg#AMX-Bold") format("svg");
+  font-display: swap;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+#loom-companion-mv3 {
+  display: none;
+}
+
+.container {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section.section1Navidad {
+  padding: 64px 0;
+}
+section.section1Navidad h2 {
+  color: #2d2d2d;
+  text-align: center;
+  font-family: AMX;
+  font-size: 32px;
+  font-weight: 700;
+}
+section.section1Navidad .mensaje {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 72%;
+  border-radius: 20px;
+  background: #da291c;
+  padding: 40px 20px;
+  margin-top: 25px;
+}
+section.section1Navidad .mensaje strong {
+  font-weight: 700;
+}
+
+section.section2Navidad {
+  background: #f4f4f4;
+}
+section.section2Navidad h3 {
+  color: #2d2d2d;
+  text-align: center;
+  font-family: AMX;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 112%;
+}
+section.section2Navidad p {
+  color: #2d2d2d;
+  text-align: center;
+  font-family: "AMX-Regular";
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 7px;
+}
+section.section2Navidad .contentCelulares {
+  margin-top: 36px;
+}
+section.section2Navidad .contentCelulares .slick-slide {
+  margin: 0 13px;
+}
+
+.itemCard {
+  border-radius: 20px;
+  background: #fff;
+  padding: 50px 50px 30px 50px;
+}
+.itemCard .contentImg {
+  margin-bottom: 35px;
+}
+.itemCard .contentImg img {
+  width: 100%;
+}
+.itemCard a {
+  border-radius: 30px;
+  background: #da291c;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 7px 45px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.slick-dots {
+  position: relative;
+  bottom: 0;
+  margin-top: 24px;
+}
+
+.slick-dots li button:before {
+  content: none;
+}
+
+.slick-dots li button {
+  width: 12px;
+  height: 12px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #da291c;
+}
+
+section.section3Navidad h3 {
+  color: #000;
+  text-align: center;
+  font-family: AMX;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 112%;
+}
+section.section3Navidad .contentRegalos {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 26px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+section.section3Navidad .contentRegalos .itemCard {
+  max-width: 340px;
+  border-radius: 20px;
+  border: 1px solid #e4e7e8;
+  background: #fff;
+}
+section.section3Navidad .contentRegalos .itemCard a {
+  padding: 7px 30px;
+}
