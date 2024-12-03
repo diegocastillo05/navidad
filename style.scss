@@ -205,3 +205,117 @@ section.section3Navidad {
     }
   }
 }
+
+section.section4Navidad {
+  h2 {
+    color: #2d2d2d;
+    text-align: center;
+    font-family: AMX;
+    font-size: 32px;
+    font-weight: 700;
+    strong {
+      color: #fff;
+      font-size: 32px;
+      font-weight: 700;
+      border-radius: 10px;
+      padding: 5px 12px;
+      background: #da291c;
+    }
+  }
+  p {
+    margin-top: 20px;
+    color: #2d2d2d;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    b {
+      font-weight: 800;
+    }
+  }
+  .contentInfo {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #da291c;
+    padding: 24px;
+    .content {
+      padding: 24px 24px 35px 24px;
+      background-color: #fff;
+      border-radius: 20px;
+      .card {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-color: #da291c;
+        border-radius: 20px;
+        padding: 25px 50px;
+        gap: 30px;
+        .part1 {
+          width: 90px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .part2 {
+          span {
+            color: #fff;
+            font-family: AMX;
+            font-size: 32px;
+            font-weight: 500;
+          }
+          h4 {
+            color: #fff;
+            font-family: AMX;
+            font-size: 52px;
+            font-weight: 800;
+          }
+          h5 {
+            color: #fff;
+            font-family: "AMX-Regular";
+            font-size: 32px;
+            font-weight: 500;
+            strong {
+              font-weight: 800;
+            }
+          }
+          p {
+            color: #fff;
+            font-family: AMX;
+            font-size: 24px;
+            font-weight: 500;
+            margin: 0;
+            text-align: start;
+          }
+        }
+        &:last-child {
+          background-color: #ff8300;
+          margin-top: 25px;
+          padding-top: 40px;
+        }
+      }
+      .iconmore {
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+  a {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 30px;
+    background: #da291c;
+    padding: 12px 50px;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    margin-top: 30px;
+  }
+}

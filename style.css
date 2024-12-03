@@ -176,3 +176,126 @@ section.section3Navidad .contentRegalos .itemCard {
 section.section3Navidad .contentRegalos .itemCard a {
   padding: 7px 30px;
 }
+
+section.section4Navidad h2 {
+  color: #2d2d2d;
+  text-align: center;
+  font-family: AMX;
+  font-size: 32px;
+  font-weight: 700;
+}
+section.section4Navidad h2 strong {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 5px 12px;
+  background: #da291c;
+}
+section.section4Navidad p {
+  margin-top: 20px;
+  color: #2d2d2d;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+}
+section.section4Navidad p b {
+  font-weight: 800;
+}
+section.section4Navidad .contentInfo {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #da291c;
+  padding: 24px;
+}
+section.section4Navidad .contentInfo .content {
+  padding: 24px 24px 35px 24px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+section.section4Navidad .contentInfo .content .card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #da291c;
+  border-radius: 20px;
+  padding: 25px 50px;
+  gap: 30px;
+}
+section.section4Navidad .contentInfo .content .card .part1 {
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+section.section4Navidad .contentInfo .content .card .part2 span {
+  color: #fff;
+  font-family: AMX;
+  font-size: 32px;
+  font-weight: 500;
+}
+section.section4Navidad .contentInfo .content .card .part2 h4 {
+  color: #fff;
+  font-family: AMX;
+  font-size: 52px;
+  font-weight: 800;
+}
+section.section4Navidad .contentInfo .content .card .part2 h5 {
+  color: #fff;
+  font-family: "AMX-Regular";
+  font-size: 32px;
+  font-weight: 500;
+}
+section.section4Navidad .contentInfo .content .card .part2 h5 strong {
+  font-weight: 800;
+}
+section.section4Navidad .contentInfo .content .card .part2 p {
+  color: #fff;
+  font-family: AMX;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  text-align: start;
+}
+section.section4Navidad .contentInfo .content .card:last-child {
+  background-color: #ff8300;
+  margin-top: 25px;
+  padding-top: 40px;
+}
+section.section4Navidad .contentInfo .content .iconmore {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+section.section4Navidad a {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 30px;
+  background: #da291c;
+  padding: 12px 50px;
+  margin: 0 auto;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 30px;
+}
